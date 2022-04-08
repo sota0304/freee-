@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>出退勤</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+  </head>
+  <body>
+    <div class="contents">
+      <p class="title">出勤退アプリ</p>
+      <form action="/views/top.ejs" method="post">
+        <div class="form">
+          <p>名前</p>
+          <input type="text" name="name">
+          <p>パスワード</p>
+          <input type="password" name="password">
+        </div>
+        <div>
+          <input class="login" type="submit" value="ログイン">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>  
