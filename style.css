@@ -1,0 +1,115 @@
+body {
+    background-image: url(/public/images/top1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.title {
+    font-family: "";
+    font-size: 90px;
+    color: rgb(196, 255, 252);
+    opacity: 0.8;
+}
+
+.login {
+    padding: 10px;
+    margin: 20px;
+}
+
+/*index*/
+
+.btn1 {
+    float: right;
+    margin:20px;
+}
+
+.table-head {
+    display: flex;
+    background-color: #b7cadc;
+    border-radius: 2px 2px 0 0;
+    height: 44px;
+    font-size: 16px;
+    line-height: 46px;
+    color: #ffffff;
+    margin-top: 80px;
+    margin-left:250px;
+}
+
+.table-head span {
+    text-align: center;
+    margin:auto;
+}
+
+.table-body {
+    background-color: #ffffff;
+}
+  
+.table-body li {
+    height: 72px;
+    border: 1px solid #f0f4f9;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-data {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.column {
+    margin: 100px;
+}
+
+header {
+    float: left;
+    margin:10px;
+    padding: 10px;
+}
+
+.a {
+    padding: 100px;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+.a1 {
+    float: left;
+    margin-left: 200px;
+}
+
+.a2 {
+    float: left;
+    margin-left: 200px;
+}
+
+.a3 {
+    float: left;
+    margin-left: 200px;
+}
+
+.a4 {
+    float: left;
+    margin-left: 200px;
+}
+
+.btn2 {
+    margin: 46px;
+}
+
+.apply_contents {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+textarea {
+    width:600px;
+    height: 100px;
+}
+
+input {
+    width: 200px;
+}
