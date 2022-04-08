@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>出退勤</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+  </head>
+  <body>
+    <header>
+      <button onclick="location.href='index.ejs'">ホーム</button>
+    </header>
+    <form action="/views/create.ejs" method="post">
+      <div class="a">
+        <div class="a1">
+          <p>出勤日</p>
+          <input type="text" name="date">
+        </div>
+        <div class="a2">
+          <p>出勤時間</p>
+          <input type="text" name="in">
+        </div>
+        <div class="a3">
+          <p>退勤時間</p>
+          <input type="text" name="out">
+        </div>
+        <div class="a4">
+          <p>休憩時間</p>
+          <input type="text" name="relax">
+        </div>
+      </div>
+      <div class="btn2">
+        <input type="submit">
+      </div>
+    </form>
+  </body>
+</html>  
